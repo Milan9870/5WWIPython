@@ -20,6 +20,9 @@ eurocent = eurocent % 5
 aantal_muntstukken += (eurocent // 2)
 eurocent = eurocent % 2
 
+aantal_muntstukken += (eurocent // 1)
+eurocent = eurocent % 1
+
 
 
 
@@ -27,3 +30,4 @@ eurocent = eurocent % 2
 
 
 # uitvoer
+print(aantal_muntstukken, eurocent)
