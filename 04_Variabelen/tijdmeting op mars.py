@@ -10,9 +10,16 @@ seconden = seconden % 60
 minuten = minuten + minutenn
 uurr = minuten // 60
 minuten = minuten % 60
-dagenn = uurr // 60
-uur = uurr % 60
+dagenn = uurr // 24
+uur = uurr % 24
 dagen = dagen + dagenn
+seconden = int(seconden)
+minuten = int(minuten)
+uur = int(uur)
+dagen = int(dagen)
+
+
+
 
 # uitvoer
-print(str(sol) + ' sol = ' + str(dagen) + ' dagen, ' + str(uur) + ' uur, ' + str(minuten) + ' minuten en ' + str(seconden) + ' seconden')
+print(str(sol) + ' sol = ' + str(dagen) + ' dagen, ' + str(uur) + ' uren, ' + str(minuten) + ' minuten en ' + str(seconden) + ' seconden')
