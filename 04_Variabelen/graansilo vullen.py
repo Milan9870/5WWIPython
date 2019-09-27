@@ -13,7 +13,8 @@ opbrengst = opp * c
 grondvlak = pi * r**2
 inhoud = grondvlak * h
 aantal_silos = opbrengst // inhoud
-hoe_vol = opbrengst % inhoud
+hoe_vol = opbrengst / inhoud
+hoe_vol = hoe_vol - aantal_silos
 hoe_vol = hoe_vol * h
 
 aantal_silos += 1
