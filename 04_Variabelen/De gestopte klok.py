@@ -8,19 +8,24 @@ m3 = int(input('geef het aantal minuten na het uur dat Andrea vertrekt bij haar 
 h4 = int(input('geef het uur dat Andrea terug thuis komt : '))
 m4 = int(input('geef het aantal minuten na het uur dat Andrea terug thuis komt : '))
 
-
 # berekening
-h5 = h4 - h1
-m5 = m4 - m1
-h6 = h3 - h2
-m6 = m3 - m2
-h7 = h5 - h6
-m7 = m5 - m6
-h8 = h7 / 2
-m8 = m7 / 2
-h9 = h8 + h3
-m9 = m8 + m3
+h1 = h1 * 60
+h2 = h2 * 60
+h3 = h3 * 60
+h4 = h4 * 60
+y1 = h1 + m1
+y2 = h2 + m2
+y3 = h3 + m3
+y4 = h4 + m4
+
+y5 = abs(y4 - y1)
+y6 = abs(y3 - y2)
+y7 = abs(y5 - y6)
+y8 = y3 + y7
+
+h8 = y8 // 60
+m8 = y8 % 60
 
 # uitvoer
-print(int(h9))
-print(int(m9))
+print(int(h8))
+print(int(m8))

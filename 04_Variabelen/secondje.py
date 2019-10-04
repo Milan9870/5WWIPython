@@ -11,3 +11,5 @@ u = u % 24
 
 # uivoer
 print(str(d) + 'd ' + str(u) + ':' + str(m) + ':' + str(s))
+
+# langere variabelen
