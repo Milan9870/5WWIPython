@@ -24,3 +24,4 @@ else:
 
 # uitvoer
 print(winnaar)
+# onbeslist en speler 1 wint programmeren, speler 2 wint in else
