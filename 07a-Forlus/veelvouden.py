@@ -4,6 +4,6 @@ som = 0
 
 # berekenen
 for veelvoud in range(getal, 101, getal):
-    som = veelvoud + som
+    som += veelvoud
 
 print(som)
