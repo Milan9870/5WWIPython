@@ -8,7 +8,6 @@ while som < getal_input:
     som += getal_berekend
     hoeveel += 1
 
-
 print(str(hoeveel) + ' ' + str(som))
 
 
