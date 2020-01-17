@@ -1,17 +1,17 @@
-getal1 = int(input('Geef een getal: '))
-getal2 = int(input('Geef een getal: '))
-som_getal1 = 0
-som_getal2 = 0
+getal_1 = int(input('Geef een getal: '))
+getal_2 = int(input('Geef een getal: '))
+som_getal_1 = 0
+som_getal_2 = 0
 
-for i in range(1, getal1):
-    if getal1 % i == 0:
-        som_getal1 += i
+for getal_3 in range(1, getal_1):
+    if getal_1 % getal_3 == 0:
+        som_getal_1 += getal_3
 
-for f in range(1, getal2):
-    if getal2 % f == 0:
-        som_getal2 += f
+for getal_3 in range(1, getal_2):
+    if getal_2 % getal_3 == 0:
+        som_getal_2 += getal_3
 
-if som_getal1 == getal2 and som_getal2 == getal1:
-    print(str(getal1) + ' en ' + str(getal2) + ' zijn bevriende getallen')
+if som_getal_1 == getal_2 and som_getal_2 == getal_1:
+    print(str(getal_1) + ' en ' + str(getal_2) + ' zijn bevriende getallen')
 else:
-    print(str(getal1) + ' en ' + str(getal2) + ' zijn geen bevriende getallen')
+    print(str(getal_1) + ' en ' + str(getal_2) + ' zijn geen bevriende getallen')

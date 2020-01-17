@@ -9,5 +9,3 @@ while som < getal_input:
     hoeveel += 1
 
 print(str(hoeveel) + ' ' + str(som))
-
-
